@@ -625,11 +625,6 @@ on property:wifi.ftmd.load=true
 service cnss-daemon /system/bin/cnss-daemon -n -l
     class late_start
 
-service loc_launcher /system/bin/loc_launcher
-    #loc_launcher will start as root and set its uid to gps
-    class late_start
-    group gps inet net_raw qcom_diag net_admin wifi
-
 on property:crypto.driver.load=1
     insmod /system/lib/modules/qce.ko
     insmod /system/lib/modules/qcedev.ko
