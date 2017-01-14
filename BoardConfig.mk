@@ -44,7 +44,6 @@ TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_APPEND_DTB := true
 TARGET_KERNEL_CONFIG := gohan_defconfig
 TARGET_KERNEL_SOURCE := kernel/bq/msm8976
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(PWD)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin/arm-eabi-
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := Aquaris_X5_Plus,gohan
