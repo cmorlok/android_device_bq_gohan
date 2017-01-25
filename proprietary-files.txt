@@ -391,8 +391,8 @@ vendor/firmware/libpn547_fw.so
 
 # Perf
 bin/msm_irqbalance
-vendor/bin/perfd
-vendor/lib/libqti-perfd-client.so
+vendor/bin/perfd|defaccae8b96019ef9731e6b5a2468f7c35e3008
+vendor/lib/libqti-perfd-client.so|bc3bdc58f74b125bdf82cd9f882f53c58591f904
 
 # Peripheral manager
 bin/pm-proxy
